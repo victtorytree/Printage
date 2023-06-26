@@ -32,9 +32,6 @@ img {
 	flex-direction: column;
 	justify-content: center;
 }
-.container-flex {
-
-}
 section {
 	position: relative;
 	padding: 100px;
@@ -44,6 +41,7 @@ section {
 #main {
 	background-color: #132035;
 	z-index: 15;
+	min-height: 100vh;
 	background-image: url('../../images/bg1.jpg');
 	background-size: cover;
 	padding-bottom: 40px;
