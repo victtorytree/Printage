@@ -100,10 +100,7 @@ section {
 	animation: arrowSlide 0.8s ease-out 0s infinite alternate both;
 	color: #000;
 	transition: all 0.2s ease-in-out;
-}
-.ARROW:hover {
-	animation: none;
-	transform: scale(1.1) translateY(-10px);
+	-webkit-tap-highlight-color: transparent;
 }
 
 /* #Second */
